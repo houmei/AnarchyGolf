@@ -4,5 +4,5 @@
 
 Language
   
-*awk  
-*forth
+- awk
+- forth
