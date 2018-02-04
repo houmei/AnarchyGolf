@@ -1,0 +1,10 @@
+(setq f 1) (setq b 1)
+(do ((c 1 (+ c 1)) (f 1 (+ f 1)) (b 1 (+ b 1)))
+  ((> c 100))
+  (cond
+    ((and (= f 3) (= b 5)) (princ "FizzBuzz") (terpri) (setq f 0) (setq b 0))
+    ((= f 3) (princ "Fizz") (terpri) (setq f 0))
+    ((= b 5) (princ "Buzz") (terpri) (setq b 0))
+    (t (princ c) (terpri))
+  )
+)
